@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void gameOver(){
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog().Builder(MainActivity.this);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
         alertDialogBuilder
                 .setMessage("Game Over! Your score is: " + mScore + " points.")
                 .setCancelable(false)
@@ -121,7 +121,8 @@ public class MainActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                startActivity(new Intent(getApplicationContext(), MainActivity.class))
+                                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                                finish();
                             }
                         })
                 .setNegativeButton("EXIT",
@@ -131,6 +132,9 @@ public class MainActivity extends AppCompatActivity {
                                 finish();
                             }
                         });
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
 
     }
 }
