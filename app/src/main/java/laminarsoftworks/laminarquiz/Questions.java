@@ -15,4 +15,15 @@ public class Questions {
 
     };
 
+    private String mChoices[][] = {
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"},
+            {"Mercury", "Venus", "Mars", "Saturn"}
+    };
 }
