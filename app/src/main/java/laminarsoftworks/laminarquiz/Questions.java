@@ -4,8 +4,8 @@ public class Questions {
 
     public String mQuestions[] = {
             "In CS, what is the word for an 8-bit binary value divided by two?",
-            "In CS, what is the word for an 8-bit binary value divided by two?1",
-            "In CS, what is the word for an 8-bit binary value divided by two?2",
+            "In biology what is the powerhouse of the cell?",
+            "What does DNA stand for?",
             "In CS, what is the word for an 8-bit binary value divided by two?3",
             "In CS, what is the word for an 8-bit binary value divided by two?4",
             "In CS, what is the word for an 8-bit binary value divided by two?5",
@@ -16,9 +16,9 @@ public class Questions {
     };
 
     private String mChoices[][] = {
-            {"Mercury", "Venus", "Mars", "Saturn"},
-            {"Jupiter", "Venus", "Earth", "Neptune"},
-            {"Earth", "Jupiter", "Pluto", "Venus"},
+            {"A Bit", "A Nibble", "A Float Point", "4-Bit"},
+            {"The Nucleus", "The Mitochondria", "The Cell Membrane", "The Cell Wall"},
+            {"Detoxin Notrious Anaxyis", "Decrypt of Notrosic Alias", "Deoxyribonucleic Acid", "Description of Neural Analytics"},
             {"Jupiter", "Saturn", "Mars", "Earth"},
             {"Jupiter", "Pluto", "Mercury", "Earth"},
             {"Uranus", "Venus", "Mars", "Saturn"},
@@ -27,7 +27,7 @@ public class Questions {
             {"Mercury", "Venus", "Mars", "Pluto"}
     };
 
-    private String mCorrectAnswers[]= {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"};
+    private String mCorrectAnswers[]= {"A Nibble", "The Mitochondria", "Deoxyribonucleic Acid", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"};
 
     public String getQuestion(int a){
         String question = mQuestions[a];
