@@ -9,9 +9,9 @@ public class Questions {
             "In physics, what is Newton's second law?",
             "In art, who painted the Mona Lisa?",
             "In biology, who invented penicillin?",
-            "In CS, what is the word for an 8-bit binary value divided by two?6",
-            "In CS, what is the word for an 8-bit binary value divided by two?7",
-            "In CS, what is the word for an 8-bit binary value divided by two?8"
+            "In physics, what is the most ionising electromagnetic wave?",
+            "In math, what is pythagoras' theorem?",
+            "In english, which one is an oxymoron?"
 
     };
 
@@ -22,12 +22,12 @@ public class Questions {
             {"F=MxV", "F=MxA", "P=MxV", "S=D/T"},
             {"Van Gogh", "Leonardo da Vinci", "Claude Monet", "Banksy"},
             {"Frank Nightingale", "Charles Darwin", "Albert Einstein", "Alexander Flemming"},
-            {"Saturn", "Pluto", "Uranus", "Earth"},
-            {"Venus", "Neptune", "Pluto", "Mars"},
-            {"Mercury", "Venus", "Mars", "Pluto"}
+            {"Alpha", "Beta", "Gamma", "Theta"},
+            {"E=MC^2", "V=I*R", "2πr", "a^2+b^2=c^2"},
+            {"Aftertaste", "All for One", "Bitter Sweet", "Lost & Found"}
     };
 
-    private String mCorrectAnswers[]= {"A Nibble", "The Mitochondria", "Deoxyribonucleic Acid", "F=MxA", "Leonardo da Vinci", "Alexander Flemming", "Uranus", "Neptune", "Pluto"};
+    private String mCorrectAnswers[]= {"A Nibble", "The Mitochondria", "Deoxyribonucleic Acid", "F=MxA", "Leonardo da Vinci", "Alexander Flemming", "Gamma", "a^2+b^2=c^2", "Bitter Sweet"};
 
     public String getQuestion(int a){
         String question = mQuestions[a];
